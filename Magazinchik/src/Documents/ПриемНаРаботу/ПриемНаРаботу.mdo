@@ -7,13 +7,21 @@
     <listType typeId="1e455d24-e79c-4899-b113-8da1213f67f5" valueTypeId="ed02d9eb-a4ae-42a5-8611-5e5d25f5d8e5"/>
     <managerType typeId="8be24ebe-d233-40dd-84e9-7854e5c60c3f" valueTypeId="78334c20-eabe-4c8f-b777-a9305ed2f44b"/>
   </producedTypes>
-  <name>Документ1</name>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Документ1.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приемы на работу</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
