@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bebfcade-3a93-4b6f-b48a-8430ad78b328">
+  <producedTypes>
+    <objectType typeId="a150d5b9-e591-46bb-bac3-da96fae89c88" valueTypeId="5b2423a8-cb88-4f9c-b958-93db15b16351"/>
+    <refType typeId="d889e457-58e6-4637-bf0d-81b5d48cdd26" valueTypeId="41d050ed-0d1a-4ea7-97ab-f35b72d0c019"/>
+    <selectionType typeId="d723735d-7a63-4687-8012-8ccc8eefbb0c" valueTypeId="c207bb9d-fda7-44e7-947f-e2a556b9de4f"/>
+    <listType typeId="13b418bd-48a5-47e9-9648-7e181c32cf24" valueTypeId="135f5e2d-1ab4-4203-814d-a2eb8969d79d"/>
+    <managerType typeId="06ed9cf5-8dd2-42f3-9076-38014e6e65c0" valueTypeId="e49b19c8-422f-4535-a498-2b34a038951f"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="be0a8ea9-c6b0-4294-8545-f0067e256fd4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3283509-b75c-4365-9355-f9b71d99fccf">
+    <name>Порекомендовал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порекомендовал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
