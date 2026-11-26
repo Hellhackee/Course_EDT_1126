@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7f7a799-5932-4a3d-a1cb-9440bb36b5c8">
+  <producedTypes>
+    <objectType typeId="9ce49873-3e7a-4688-a411-0fa2641610b8" valueTypeId="216365fe-b9d0-4d77-a6de-03837e5aacc1"/>
+    <refType typeId="065e345c-db71-43d5-95fe-f421514c52fb" valueTypeId="42145c15-f07b-4dcf-955b-988346f00e32"/>
+    <selectionType typeId="a7de47e0-fe51-48aa-bc35-4a16c73d4f68" valueTypeId="17727ded-e11c-451e-8780-1c979785dc5e"/>
+    <listType typeId="ac2beef9-e4db-4894-969e-49b80f8b5408" valueTypeId="193856e0-3583-4872-9045-e7c9624d2987"/>
+    <managerType typeId="a6ce0f71-cd9f-4a22-87b7-e667c0a2a0ea" valueTypeId="d6e65220-9264-43c9-bb79-8f4ba7c28d66"/>
+  </producedTypes>
+  <name>Ящерицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ящерицы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ящерицы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ящерицы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
