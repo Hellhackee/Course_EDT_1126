@@ -42,9 +42,11 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.Справочник1</catalogs>
-  <catalogs>Catalog.Ящерицы</catalogs>  
+  <catalogs>Catalog.Ящерицы</catalogs>
   <catalogs>Catalog.Ящики</catalogs>
+  <documents>Document.Документ</documents>
   <documents>Document.КадровыйПеревод</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПриемНаРаботу</documents>
